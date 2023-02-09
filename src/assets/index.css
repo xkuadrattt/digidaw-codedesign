@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  background: conic-gradient(
+    from 190.41deg at 57.15% 45.7%,
+    #353998 0deg,
+    #27637d 247.5deg,
+    #27637d 360deg
+  );
+}
+
+.feature li {
+  list-style: none;
+  background: url("../assets/img/ulImg.png") no-repeat left top;
+  vertical-align: middle;
+  padding-left: 6.5rem;
+}
